@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\game\GameCore.cpp" />
+    <ClCompile Include="src\game\graphics\BackgroundLayer.cpp" />
+    <ClCompile Include="src\game\graphics\Environment.cpp" />
+    <ClCompile Include="src\game\graphics\ForegroundLayer.cpp" />
+    <ClCompile Include="src\game\graphics\LevelLayer.cpp" />
+    <ClCompile Include="src\game\graphics\objects\Circle.cpp" />
+    <ClCompile Include="src\game\graphics\objects\Gear.cpp" />
+    <ClCompile Include="src\game\graphics\objects\Image.cpp" />
+    <ClCompile Include="src\game\graphics\objects\Leg.cpp" />
+    <ClCompile Include="src\game\graphics\objects\Player.cpp" />
+    <ClCompile Include="src\game\graphics\objects\shader.cpp" />
+    <ClCompile Include="src\game\graphics\objects\Shadow.cpp" />
+    <ClCompile Include="src\game\graphics\objects\Triangle.cpp" />
+    <ClCompile Include="src\game\graphics\objects\utils.cpp" />
+    <ClCompile Include="src\game\graphics\StateLayer.cpp" />
+    <ClCompile Include="src\game\graphics\Window.cpp" />
+    <ClCompile Include="src\game\input\InputCore.cpp" />
+    <ClCompile Include="src\game\input\joystick\JoystickHandler.cpp" />
+    <ClCompile Include="src\game\input\primesense\PrimeSenseCore.cpp" />
+    <ClCompile Include="src\game\sound\AudioPlayer.cpp" />
+    <ClCompile Include="src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\game\GameCore.h" />
+    <ClInclude Include="src\game\gamesettings.h" />
+    <ClInclude Include="src\game\graphics\BackgroundLayer.h" />
+    <ClInclude Include="src\game\graphics\Environment.h" />
+    <ClInclude Include="src\game\graphics\ForegroundLayer.h" />
+    <ClInclude Include="src\game\graphics\graphicssettings.h" />
+    <ClInclude Include="src\game\graphics\LevelLayer.h" />
+    <ClInclude Include="src\game\graphics\objects\Circle.h" />
+    <ClInclude Include="src\game\graphics\objects\Gear.h" />
+    <ClInclude Include="src\game\graphics\objects\Image.h" />
+    <ClInclude Include="src\game\graphics\objects\Leg.h" />
+    <ClInclude Include="src\game\graphics\objects\Player.h" />
+    <ClInclude Include="src\game\graphics\objects\shader.h" />
+    <ClInclude Include="src\game\graphics\objects\Shadow.h" />
+    <ClInclude Include="src\game\graphics\objects\Triangle.h" />
+    <ClInclude Include="src\game\graphics\objects\utils.h" />
+    <ClInclude Include="src\game\graphics\StateLayer.h" />
+    <ClInclude Include="src\game\graphics\Window.h" />
+    <ClInclude Include="src\game\input\InputCore.h" />
+    <ClInclude Include="src\game\input\joystick\JoystickHandler.h" />
+    <ClInclude Include="src\game\input\primesense\PrimeSenseCore.h" />
+    <ClInclude Include="src\game\sound\AudioPlayer.h" />
+    <ClInclude Include="src\game\sound\irrklang\ik_ESoundEngineOptions.h" />
+    <ClInclude Include="src\game\sound\irrklang\ik_ESoundOutputDrivers.h" />
+    <ClInclude Include="src\game\sound\irrklang\ik_EStreamModes.h" />
+    <ClInclude Include="src\game\sound\irrklang\ik_IAudioRecorder.h" />
+    <ClInclude Include="src\game\sound\irrklang\ik_IAudioStream.h" />
+    <ClInclude Include="src\game\sound\irrklang\ik_IAudioStreamLoader.h" />
+    <ClInclude Include="src\game\sound\irrklang\ik_IFileFactory.h" />
+    <ClInclude Include="src\game\sound\irrklang\ik_IFileReader.h" />
+    <ClInclude Include="src\game\sound\irrklang\ik_IRefCounted.h" />
+    <ClInclude Include="src\game\sound\irrklang\ik_irrKlangTypes.h" />
+    <ClInclude Include="src\game\sound\irrklang\ik_ISound.h" />
+    <ClInclude Include="src\game\sound\irrklang\ik_ISoundDeviceList.h" />
+    <ClInclude Include="src\game\sound\irrklang\ik_ISoundEffectControl.h" />
+    <ClInclude Include="src\game\sound\irrklang\ik_ISoundEngine.h" />
+    <ClInclude Include="src\game\sound\irrklang\ik_ISoundMixedOutputReceiver.h" />
+    <ClInclude Include="src\game\sound\irrklang\ik_ISoundSource.h" />
+    <ClInclude Include="src\game\sound\irrklang\ik_ISoundStopEventReceiver.h" />
+    <ClInclude Include="src\game\sound\irrklang\ik_IVirtualRefCounted.h" />
+    <ClInclude Include="src\game\sound\irrklang\ik_SAudioStreamFormat.h" />
+    <ClInclude Include="src\game\sound\irrklang\ik_vec3d.h" />
+    <ClInclude Include="src\game\sound\irrklang\irrKlang.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\shader\imageFS.glsl" />
+    <None Include="res\shader\imageVS.glsl" />
+    <None Include="res\shader\shadowFS.glsl" />
+    <None Include="res\shader\shadowVS.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\texture\chassis.png" />
+    <Image Include="res\texture\gear.png" />
+    <Image Include="res\texture\grendizer.png" />
+    <Image Include="res\texture\playerBody.png" />
+    <Image Include="res\texture\playerLeg.png" />
+    <Image Include="res\texture\playerpipe.png" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E4CA3CED-FBD9-4BBA-A818-266D35DEB239}</ProjectGuid>
+    <RootNamespace>Lucidity</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\OpenNI2\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>GLFW.lib;opengl32.lib;kernel32.lib;user32.lib;glu32.lib;glew32.lib;DevIL.lib;ILU.lib;ILUT.lib;OpenNI2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\OpenNI2\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>GLFW.lib;opengl32.lib;kernel32.lib;user32.lib;glu32.lib;glew32.lib;DevIL.lib;ILU.lib;ILUT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\OpenNI2\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\OpenNI2\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>GLFW.lib;opengl32.lib;kernel32.lib;user32.lib;glu32.lib;glew32.lib;DevIL.lib;ILU.lib;ILUT.lib;OpenNI2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,120 @@
+﻿Build started 2013-12-13 21:07:07.
+     1>Project "C:\Users\sam\Documents\Visual Studio 2012\Projects\2D - Beyond lucidity\Lucidity - Copy\Lucidity.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\OpenNI2\Include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt src\game\GameCore.cpp src\game\graphics\BackgroundLayer.cpp src\game\graphics\Environment.cpp src\game\graphics\ForegroundLayer.cpp src\game\graphics\LevelLayer.cpp src\game\graphics\objects\Circle.cpp src\game\graphics\objects\Gear.cpp src\game\graphics\objects\Image.cpp src\game\graphics\objects\Leg.cpp src\game\graphics\objects\Player.cpp src\game\graphics\objects\shader.cpp src\game\graphics\objects\Shadow.cpp src\game\graphics\objects\Triangle.cpp src\game\graphics\objects\utils.cpp src\game\graphics\StateLayer.cpp src\game\graphics\Window.cpp src\game\input\InputCore.cpp src\game\input\joystick\JoystickHandler.cpp src\game\input\primesense\PrimeSenseCore.cpp src\game\sound\AudioPlayer.cpp src\main.cpp
+         GameCore.cpp
+     1>src\game\GameCore.cpp(30): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>src\game\GameCore.cpp(70): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         BackgroundLayer.cpp
+     1>src\game\graphics\BackgroundLayer.cpp(12): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\game\graphics\BackgroundLayer.cpp(13): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         Environment.cpp
+     1>src\game\graphics\Environment.cpp(119): warning C4244: 'argument' : conversion from 'float' to 'GLsizei', possible loss of data
+         ForegroundLayer.cpp
+         LevelLayer.cpp
+         Circle.cpp
+     1>src\game\graphics\objects\Circle.cpp(39): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+         Gear.cpp
+     1>src\game\graphics\objects\Gear.cpp(53): warning C4552: '*' : operator has no effect; expected operator with side-effect
+     1>src\game\graphics\objects\Gear.cpp(55): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\game\graphics\objects\Gear.cpp(56): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>src\game\graphics\objects\Gear.cpp(57): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>src\game\graphics\objects\Gear.cpp(58): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>src\game\graphics\objects\Gear.cpp(59): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>src\game\graphics\objects\Gear.cpp(60): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\game\graphics\objects\Gear.cpp(61): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\game\graphics\objects\Gear.cpp(62): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\game\graphics\objects\Gear.cpp(63): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\game\graphics\objects\Gear.cpp(64): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\game\graphics\objects\Gear.cpp(70): warning C4552: '*' : operator has no effect; expected operator with side-effect
+     1>src\game\graphics\objects\Gear.cpp(72): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\game\graphics\objects\Gear.cpp(73): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>src\game\graphics\objects\Gear.cpp(74): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\game\graphics\objects\Gear.cpp(75): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\game\graphics\objects\Gear.cpp(150): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>src\game\graphics\objects\Gear.cpp(181): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         Image.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.0\Include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\GL/glfw.h(74) : see previous definition of 'APIENTRY'
+     1>C:\Program Files (x86)\Windows Kits\8.0\Include\um\wingdi.h(32): warning C4005: 'WINGDIAPI' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\GL/glfw.h(91) : see previous definition of 'WINGDIAPI'
+     1>src\game\graphics\objects\Image.cpp(29): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>src\game\graphics\objects\Image.cpp(30): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>src\game\graphics\objects\Image.cpp(32): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>src\game\graphics\objects\Image.cpp(33): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>src\game\graphics\objects\Image.cpp(143): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\game\graphics\objects\Image.cpp(144): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         Leg.cpp
+     1>src\game\graphics\objects\Leg.cpp(20): warning C4305: '=' : truncation from 'double' to 'float'
+     1>src\game\graphics\objects\Leg.cpp(251): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>src\game\graphics\objects\Leg.cpp(293): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>src\game\graphics\objects\Leg.cpp(298): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>src\game\graphics\objects\Leg.cpp(311): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         Player.cpp
+     1>src\game\graphics\objects\Player.cpp(134): warning C4305: '=' : truncation from 'double' to 'float'
+     1>src\game\graphics\objects\Player.cpp(246): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>src\game\graphics\objects\Player.cpp(247): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>src\game\graphics\objects\Player.cpp(248): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>src\game\graphics\objects\Player.cpp(274): warning C4305: '=' : truncation from 'double' to 'float'
+     1>src\game\graphics\objects\Player.cpp(282): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\game\graphics\objects\Player.cpp(287): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\game\graphics\objects\Player.cpp(288): warning C4305: '=' : truncation from 'double' to 'float'
+     1>src\game\graphics\objects\Player.cpp(292): warning C4305: '=' : truncation from 'double' to 'float'
+     1>src\game\graphics\objects\Player.cpp(293): warning C4305: '=' : truncation from 'double' to 'float'
+     1>src\game\graphics\objects\Player.cpp(296): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\game\graphics\objects\Player.cpp(297): warning C4305: '=' : truncation from 'double' to 'float'
+     1>src\game\graphics\objects\Player.cpp(326): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>src\game\graphics\objects\Player.cpp(327): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>src\game\graphics\objects\Player.cpp(438): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         shader.cpp
+         Shadow.cpp
+     1>src\game\graphics\objects\Shadow.cpp(116): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\game\graphics\objects\Shadow.cpp(117): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\game\graphics\objects\Shadow.cpp(121): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\game\graphics\objects\Shadow.cpp(122): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         Triangle.cpp
+         utils.cpp
+         StateLayer.cpp
+         Window.cpp
+     1>src\game\graphics\Window.cpp(20): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+         InputCore.cpp
+         JoystickHandler.cpp
+         PrimeSenseCore.cpp
+         AudioPlayer.cpp
+     1>src\game\sound\AudioPlayer.cpp(200): warning C4244: 'argument' : conversion from 'double' to 'irrklang::ik_f32', possible loss of data
+     1>src\game\sound\AudioPlayer.cpp(209): warning C4244: 'argument' : conversion from 'double' to 'irrklang::ik_f32', possible loss of data
+     1>src\game\sound\AudioPlayer.cpp(218): warning C4244: 'argument' : conversion from 'double' to 'irrklang::ik_f32', possible loss of data
+     1>src\game\sound\AudioPlayer.cpp(227): warning C4244: 'argument' : conversion from 'double' to 'irrklang::ik_f32', possible loss of data
+     1>src\game\sound\AudioPlayer.cpp(236): warning C4244: 'argument' : conversion from 'double' to 'irrklang::ik_f32', possible loss of data
+         Compiling...
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\sam\Documents\Visual Studio 2012\Projects\2D - Beyond lucidity\Lucidity - Copy\Release\Lucidity.exe" /NOLOGO /LIBPATH:"C:\Program Files (x86)\OpenNI2\Lib" GLFW.lib opengl32.lib kernel32.lib user32.lib glu32.lib glew32.lib DevIL.lib ILU.lib ILUT.lib OpenNI2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\sam\Documents\Visual Studio 2012\Projects\2D - Beyond lucidity\Lucidity - Copy\Release\Lucidity.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\sam\Documents\Visual Studio 2012\Projects\2D - Beyond lucidity\Lucidity - Copy\Release\Lucidity.lib" /MACHINE:X86 /SAFESEH Release\GameCore.obj
+         Release\BackgroundLayer.obj
+         Release\Environment.obj
+         Release\ForegroundLayer.obj
+         Release\LevelLayer.obj
+         Release\Circle.obj
+         Release\Gear.obj
+         Release\Image.obj
+         Release\Leg.obj
+         Release\Player.obj
+         Release\shader.obj
+         Release\Shadow.obj
+         Release\Triangle.obj
+         Release\utils.obj
+         Release\StateLayer.obj
+         Release\Window.obj
+         Release\InputCore.obj
+         Release\JoystickHandler.obj
+         Release\PrimeSenseCore.obj
+         Release\AudioPlayer.obj
+         Release\main.obj
+         Generating code
+         Finished generating code
+         Lucidity.vcxproj -> C:\Users\sam\Documents\Visual Studio 2012\Projects\2D - Beyond lucidity\Lucidity - Copy\Release\Lucidity.exe
+     1>Done Building Project "C:\Users\sam\Documents\Visual Studio 2012\Projects\2D - Beyond lucidity\Lucidity - Copy\Lucidity.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:26.62

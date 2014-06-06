@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\game">
+      <UniqueIdentifier>{46d5344b-1266-4031-a321-5513bd24f564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\graphics">
+      <UniqueIdentifier>{38d219f7-5ff6-49f8-a918-b783c77fa590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\input">
+      <UniqueIdentifier>{6150c494-3647-4b52-8740-30e0ee1ba96c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\input\joystick">
+      <UniqueIdentifier>{3a80fa81-b9f0-49c1-bcf1-f4fd72ad90ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\graphics\objects">
+      <UniqueIdentifier>{0cb51050-8fd0-4355-a791-88abd1f6a264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\sound">
+      <UniqueIdentifier>{a65b3bf9-1674-4ad5-ae22-c9fa62a96b5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\sound\irrKlang">
+      <UniqueIdentifier>{d362f9d2-40fd-4e40-bc92-42ee0c317e4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\texture">
+      <UniqueIdentifier>{0d2232ae-6d34-4a89-9e41-d6144aa12154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shader">
+      <UniqueIdentifier>{76896f30-9340-434c-96db-68bf24690d9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\sound">
+      <UniqueIdentifier>{99780940-63b4-4e6b-b2d6-021e1b79561e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\input\primesense">
+      <UniqueIdentifier>{e1ecd833-4672-4660-ba62-0019af4d3183}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\GameCore.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\input\InputCore.cpp">
+      <Filter>Source Files\game\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\graphics\Environment.cpp">
+      <Filter>Source Files\game\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\graphics\BackgroundLayer.cpp">
+      <Filter>Source Files\game\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\input\joystick\JoystickHandler.cpp">
+      <Filter>Source Files\game\input\joystick</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\graphics\objects\Triangle.cpp">
+      <Filter>Source Files\game\graphics\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\graphics\Window.cpp">
+      <Filter>Source Files\game\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\graphics\objects\Circle.cpp">
+      <Filter>Source Files\game\graphics\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\graphics\objects\utils.cpp">
+      <Filter>Source Files\game\graphics\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\graphics\objects\shader.cpp">
+      <Filter>Source Files\game\graphics\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\sound\AudioPlayer.cpp">
+      <Filter>Source Files\game\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\graphics\objects\Image.cpp">
+      <Filter>Source Files\game\graphics\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\graphics\objects\Player.cpp">
+      <Filter>Source Files\game\graphics\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\graphics\objects\Leg.cpp">
+      <Filter>Source Files\game\graphics\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\graphics\ForegroundLayer.cpp">
+      <Filter>Source Files\game\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\graphics\objects\Gear.cpp">
+      <Filter>Source Files\game\graphics\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\graphics\LevelLayer.cpp">
+      <Filter>Source Files\game\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\graphics\StateLayer.cpp">
+      <Filter>Source Files\game\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\graphics\objects\Shadow.cpp">
+      <Filter>Source Files\game\graphics\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\input\primesense\PrimeSenseCore.cpp">
+      <Filter>Source Files\game\input\primesense</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\game\GameCore.h">
+      <Filter>Source Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\input\InputCore.h">
+      <Filter>Source Files\game\input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\graphics\Environment.h">
+      <Filter>Source Files\game\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\graphics\BackgroundLayer.h">
+      <Filter>Source Files\game\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\input\joystick\JoystickHandler.h">
+      <Filter>Source Files\game\input\joystick</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\graphics\objects\Triangle.h">
+      <Filter>Source Files\game\graphics\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\graphics\Window.h">
+      <Filter>Source Files\game\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\graphics\objects\Circle.h">
+      <Filter>Source Files\game\graphics\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\graphics\objects\shader.h">
+      <Filter>Source Files\game\graphics\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\graphics\objects\utils.h">
+      <Filter>Source Files\game\graphics\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\gamesettings.h">
+      <Filter>Source Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\graphics\graphicssettings.h">
+      <Filter>Source Files\game\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\sound\AudioPlayer.h">
+      <Filter>Source Files\game\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\sound\irrklang\ik_ISoundDeviceList.h">
+      <Filter>Source Files\game\sound\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\sound\irrklang\ik_ISoundEffectControl.h">
+      <Filter>Source Files\game\sound\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\sound\irrklang\ik_ISoundEngine.h">
+      <Filter>Source Files\game\sound\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\sound\irrklang\ik_ISoundMixedOutputReceiver.h">
+      <Filter>Source Files\game\sound\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\sound\irrklang\ik_ISoundSource.h">
+      <Filter>Source Files\game\sound\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\sound\irrklang\ik_ISoundStopEventReceiver.h">
+      <Filter>Source Files\game\sound\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\sound\irrklang\ik_IVirtualRefCounted.h">
+      <Filter>Source Files\game\sound\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\sound\irrklang\ik_SAudioStreamFormat.h">
+      <Filter>Source Files\game\sound\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\sound\irrklang\ik_vec3d.h">
+      <Filter>Source Files\game\sound\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\sound\irrklang\irrKlang.h">
+      <Filter>Source Files\game\sound\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\sound\irrklang\ik_ESoundEngineOptions.h">
+      <Filter>Source Files\game\sound\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\sound\irrklang\ik_ESoundOutputDrivers.h">
+      <Filter>Source Files\game\sound\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\sound\irrklang\ik_EStreamModes.h">
+      <Filter>Source Files\game\sound\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\sound\irrklang\ik_IAudioRecorder.h">
+      <Filter>Source Files\game\sound\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\sound\irrklang\ik_IAudioStream.h">
+      <Filter>Source Files\game\sound\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\sound\irrklang\ik_IAudioStreamLoader.h">
+      <Filter>Source Files\game\sound\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\sound\irrklang\ik_IFileFactory.h">
+      <Filter>Source Files\game\sound\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\sound\irrklang\ik_IFileReader.h">
+      <Filter>Source Files\game\sound\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\sound\irrklang\ik_IRefCounted.h">
+      <Filter>Source Files\game\sound\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\sound\irrklang\ik_irrKlangTypes.h">
+      <Filter>Source Files\game\sound\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\sound\irrklang\ik_ISound.h">
+      <Filter>Source Files\game\sound\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\graphics\objects\Image.h">
+      <Filter>Source Files\game\graphics\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\graphics\objects\Player.h">
+      <Filter>Source Files\game\graphics\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\graphics\objects\Leg.h">
+      <Filter>Source Files\game\graphics\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\graphics\ForegroundLayer.h">
+      <Filter>Source Files\game\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\graphics\objects\Gear.h">
+      <Filter>Source Files\game\graphics\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\graphics\LevelLayer.h">
+      <Filter>Source Files\game\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\graphics\StateLayer.h">
+      <Filter>Source Files\game\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\graphics\objects\Shadow.h">
+      <Filter>Source Files\game\graphics\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\input\primesense\PrimeSenseCore.h">
+      <Filter>Source Files\game\input\primesense</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\shader\imageFS.glsl">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="res\shader\imageVS.glsl">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="res\shader\shadowFS.glsl">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="res\shader\shadowVS.glsl">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\texture\grendizer.png">
+      <Filter>Resource Files\texture</Filter>
+    </Image>
+    <Image Include="res\texture\playerLeg.png">
+      <Filter>Resource Files\texture</Filter>
+    </Image>
+    <Image Include="res\texture\playerBody.png">
+      <Filter>Resource Files\texture</Filter>
+    </Image>
+    <Image Include="res\texture\chassis.png">
+      <Filter>Resource Files\texture</Filter>
+    </Image>
+    <Image Include="res\texture\gear.png">
+      <Filter>Resource Files\texture</Filter>
+    </Image>
+    <Image Include="res\texture\playerpipe.png">
+      <Filter>Resource Files\texture</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
